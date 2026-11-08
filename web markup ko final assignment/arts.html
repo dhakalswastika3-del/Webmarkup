@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Arts | TeenVibe</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+
+        <a href="index.html"><img src="img/teenvibe-logo.png" class="site-logo" alt="TeenVibe logo"></a>
+
+        <nav class="desktop-nav" id="mobileNavigation">
+
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="friends.html">Friends</a></li>
+
+                <li><a href="sports.html">Sports</a></li>
+
+                <li><a href="arts.html" class="selected-link">Arts</a></li>
+
+                <li><a href="family.html">Family</a></li>
+
+                <li><a href="contact.html" class="contact-link">Contact</a></li>
+            </ul>
+
+        </nav>
+
+        <button type="button" class="mobile-menu" onclick="toggleMenu()" aria-label="Open mobile navigation">☰</button>
+
+    </header>
+
+    <main>
+
+        <section class="category-intro arts-intro">
+
+            <h1>Arts</h1>
+
+            <section class="category-feature">
+
+                <img src="img/arts-hero.jpeg" alt="Arts activity">
+
+                <h2>Create and inspire</h2>
+
+            </section>
+
+            <p>Get creative,try new things and turn your ideas into something special.Discover the joy of making things with your own hands.</p>
+
+        </section>
+
+        <section class="category-activities">
+
+            <h2>Creative activities to try:</h2>
+
+            <ul class="activity-list">
+                <li>
+                    <figure class="activity-card">
+                        <img src="img/painting.jpeg" alt="Painting">
+
+                        <figcaption><a href="painting.html">Painting : Explore</a></figcaption>
+                    </figure>
+                </li>
+
+                <li>
+                    <figure class="activity-card">
+                        <img src="img/crochet.jpeg" alt="Crochet">
+
+                        <figcaption><a href="crochet.html">Crochet : Explore</a></figcaption>
+                    </figure>
+                </li>
+
+                <li>
+                    <figure class="activity-card">
+                        <img src="img/pottery.jpeg" alt="Pottery">
+
+                        <figcaption><a href="pottery.html">Pottery : Explore</a></figcaption>
+                    </figure>
+                </li>
+
+                <li>
+                    <figure class="activity-card">
+                        <img src="img/photography.jpeg" alt="Photography">
+
+                        <figcaption><a href="photography.html">Photography : Explore</a></figcaption>
+                    </figure>
+                </li>
+
+            </ul>
+
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+
+        <section class="footer-column">
+
+            <h2>Quick links</h2>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="friends.html">Friends</a></li>
+
+                <li><a href="sports.html">Sports</a></li>
+
+                <li><a href="arts.html">Art</a></li>
+
+                <li><a href="family.html">Family</a></li>
+
+                <li><a href="contact.html">Connect</a></li>
+            </ul>
+
+        </section>
+
+        <section class="footer-column">
+
+            <h2>Resources</h2>
+
+            <ul>
+                <li>Activities ideas</li>
+
+                <li>Parents tips</li>
+            </ul>
+
+        </section>
+
+        <section class="footer-column">
+
+            <h2>Follow</h2>
+
+            <p>Instagram</p>
+
+            <p>YouTube</p>
+
+        </section>
+
+        <p class="copyright">&copy; 2026 Beyond the Bubble. A room to explore.</p>
+
+    </footer>
+
+    <script>
+        // We talked with Teacher Dan and he said yes for the navigation of mobile we can use a simple JavaScript.
+
+        function toggleMenu() {
+            document.getElementById("mobileNavigation").classList.toggle("show-menu");
+        }
+    </script>
+
+</body>
+
+</html>
