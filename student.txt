@@ -1,0 +1,5 @@
+Student name: Swastika Dhakal
+Student number: your student number
+Student class: IT B
+GitHub Repository: your github repository URL
+GitHub Pages URL: your github pages URL
